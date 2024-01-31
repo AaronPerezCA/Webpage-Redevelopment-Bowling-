@@ -1,13 +1,65 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Events</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/contact.css">
+</head>
+
+<body>
+    <h1 class="title"><b>Contact Us</b></h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="co form">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputFirstName" class="form-label">First Name</label>
+                      <input type="fName" class="form-control" id="inputName">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputLastName" class="form-label">Last Name</label>
+                      <input type="lName" class="form-control" id="inputLastName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                    
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-6 button">
+                        <div >
+                            <input type="radio" id="Tournaments" name="fav_language" value="HTML">
+                            <label for="html">Tournaments</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Leagues" name="fav_language" value="HTML">
+                            <label for="html">Leagues</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Other" name="fav_language" value="HTML">
+                            <label for="html">Other</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="w3review">Message</label><br>
+                        <textarea id="w3review" name="w3review" rows="10" cols="158">
+                        </textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -17,6 +69,13 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
