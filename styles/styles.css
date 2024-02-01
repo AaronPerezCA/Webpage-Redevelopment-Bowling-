@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+  width: 100%;
+}
+  
+div.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
+}
+
+
+/* navbar start */
+.navbar
+{
+  background: #0B0F28 !important;
+  padding: 1%;
+}
+
+a.nav-link{
+  display: inline-flex;
+  font-size: 1.7em;
+  font-weight: 400;
+  padding: 10px 15px !important;
+  color: white;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word
+}
+
+.navbar-collapse {
+  justify-content: right;
+}
+/* navbar end */
+
+
+/* footer start */
+footer{
+    background-color: #080D29;
+    margin-top: 2rem;
+    padding: 3rem;
+    color:white;
+  }
+  
+  h3{
+    text-align: center;
+  }
+  
+  .footerText{
+    margin-bottom: 1rem;;
+  }
+  /* footer end */
+  
