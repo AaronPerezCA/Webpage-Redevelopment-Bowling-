@@ -1,4 +1,35 @@
 
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+/*navbar*/
+.navbar{
+    background-color: #080D29 !important;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+.pageLinks{
+    color:white;
+    margin-right: 1em;
+    text-align: right;
+}
+.pageLinks:hover{
+    color:#358FEF
+}
+.toggles{
+    background-image: url("../assets/images/bars-removebg-preview.png");
+    background-size: 100%;
+    height: 25px;
+    width: 25px;
+}
+span{
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 
 /*blue background */
@@ -7,19 +38,8 @@
     padding: 15px;
 }
 
-.centerTxt{
-    display: flex;
-    justify-content: center;
-}
 
-.eventsCosmicBowlImg{
-    padding: 0px;
-    border: 2px black solid;
-}
 
-.photo{
-    padding: 0px;
-}
 
 
 .btn{
@@ -28,29 +48,52 @@
 
 
 
-/*testing */
-.cosmicBg{
-    padding: 0%;
-
-}
-
-.mid{
-    padding: 0px;
-}
-
-.midParties{
-    padding-top: 0px;
-}
 
 #cosmicImgTop{
-    
     width: 100%;
 }
+
 #cosmicImgMid{
-    
-    width: 100%;
+    padding-left: 0;
+    width:100%;
 }
+
 #cosmicImgBtm{
-    
-    width: 100%;
+    padding-left: 0;
+    width:100%;
+}
+
+
+.noPad{
+    padding: 0;
+}
+
+/*Text*/
+
+
+.centerTxt{
+    text-align: center;
+}
+
+.cosmicSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+/*Footer*/
+footer{
+    background-color: #080D29;
+   
+    padding: 3rem;
+    color:white;
+}
+h3{
+    text-align: center;
+}
+.footerText{
+    margin-bottom: 1rem;;
 }
