@@ -42,13 +42,20 @@ span{
 .mainContainer{
     margin: none !important;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.leagueCards{
+    display: flex;
+    justify-content: center;
 }
 
 .bothCard{
     border-radius: 25px;
     border: none;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    width: 85%;
+    height: 95%;
 }
 .cardImg{
     border-radius: 25px  25px 0px 0px;
@@ -57,9 +64,19 @@ span{
 .bold{
     font-weight: bolder;
 }
+.juniorCard{
+    margin-bottom: 2em;
+}
+.winterLeagueCard{
+    margin-bottom: 2em;
+
+}
 .juniorElimText{
     margin-top: 1em;
     margin-bottom: 2em;
+}
+.textRight{
+    text-align: end;
 }
 .framerText{
     margin-top: 1em;
@@ -79,9 +96,29 @@ span{
     justify-content: center;
 }
 
+.highlightsCard{
+    background: url("../assets/images/highlightsBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 115% ;
+    color: white;
+    border-radius: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 1rem;
+}
+.highlights{
+    background-color: white;
+    padding-top: 2rem;
+}
 
-
-
+.innerHighlights{
+    display: flex;
+    justify-content: space-around;
+}
+.opacBg{
+    background-color: #0d142e71;
+    
+}
 
 
 
@@ -95,7 +132,6 @@ span{
 
 footer{
     background-color: #080D29;
-    margin-top: 2rem;
     padding: 3rem;
     color:white;
 }
