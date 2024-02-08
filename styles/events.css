@@ -1,0 +1,56 @@
+
+
+
+/*blue background */
+.topBg{
+    background-color: #358FEF !important;
+    padding: 15px;
+}
+
+.centerTxt{
+    display: flex;
+    justify-content: center;
+}
+
+.eventsCosmicBowlImg{
+    padding: 0px;
+    border: 2px black solid;
+}
+
+.photo{
+    padding: 0px;
+}
+
+
+.btn{
+    border-radius: 0px;
+}
+
+
+
+/*testing */
+.cosmicBg{
+    padding: 0%;
+
+}
+
+.mid{
+    padding: 0px;
+}
+
+.midParties{
+    padding-top: 0px;
+}
+
+#cosmicImgTop{
+    
+    width: 100%;
+}
+#cosmicImgMid{
+    
+    width: 100%;
+}
+#cosmicImgBtm{
+    
+    width: 100%;
+}
