@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>West Valley Bowl Redesign</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/bowling-pin-computer-icons-clip-art-bowling-5ae01832f10585.2245712915246356989872.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css">
@@ -43,58 +44,189 @@
       </div>
     </nav>
     <!--navbar end-->
-
   
-
-
-
-
-
-
-
-    
-
-
-
-    <!--footer start-->
-    <footer>
-      <div class="container  d-none d-lg-block">
-        <div class="row">
-          <div class="col-3">
-            <h3 class="west">West Valley Bowl </h3>
+    <!-------hero start------->
+    <div class="container-fluid">
+      <div class="row">
+        <img src="./assets/images/hero-pins2.jpg" class="img-fluid">
+      </div>
+    </div>
+    <!---------hero end------------>
+  
+    <!-----cards - hours lane reservation start------>
+    <div class="container-fluid px-4 py-5">
+      <div class="container">
+        <div class="row my-2 g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="d-flex align-items-center justify-content-center">
+              <img src="./assets/images/IndexClockVector.png" class="mx-auto" alt="hours placeholder image"
+                title="Open Hours Clock Image">
+            </div>
+            <h1 class="card-title my-5">HOURS</h1>
+            <div class="row">
+              <div class="col">
+                <p class="card-text d-flex flex-column">
+                <p>Monday & Wednesday</p>
+                <p>Tuesday & Thursday</p>
+                <p>Friday & Saturday</p>
+                <p>Sunday</p>
+                </p>
+              </div>
+              <div class="col">
+                <p class="card-text d-flex flex-column">
+                <p>2pm - 10pm</p>
+                <p>10am - 10pm</p>
+                <p>10am - 12am</p>
+                <p>12pm - 8pm</p>
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="col-1">
-            <h3>|</h3>
+  
+          <div class="col">
+            <div class="card">
+              <div class="d-flex flex-column"><img src="./assets/images/IndexCenterImage.jpg" style="width:100%;">
+              </div>
+            </div>
           </div>
-          <div class="col-4">
-            <h3>2365 EAST Street Tracy, CA </h3>
-          </div>
-          <div class="col-1">
-            <h3>|</h3>
-          </div>
-          <div class="col-3">
-            <h3>(209)-835-5262</h3>
+  
+          <div class="feature col text-center">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+              <img src="./assets/images/IndexCalendarVector.png" class="mx-auto" alt="calendar placeholder image"
+                title="Reserve Lane Calendar Image">
+            </div>
+            <h1 class="card-title my-5">LANE RESERVATIONS</h1>
+            <p class="card-text">Join the fun with family and friends!!</p>
+            <button type="button" class="btn btn-primary">Book Lanes Now</button>
           </div>
         </div>
       </div>
-      <!-- Medium and Smaller size -->
-      <div class="container  d-md-block d-lg-none">
-        <div class="row">
-          <div class="col-12 footerText">
-            <h3 class="west">West Valley Bowl </h3>
+    </div>
+    <!-----cards - hours lane reservation end------>
+  
+  
+    <div class="container-fluid pricing">
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <img src="./assets/images/IndexPricingVectorIcon.png">
+        <h1 class="pricing-title">PRICING</h1>
+      </div>
+  
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4">
+              <h1 class="pricing-card-title">Weekdays Before 5pm</h1>
+              <div class="card-body my-2">
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Regular<br>
+                    $4.75</li>
+                  <li>Senior | Youth<br>
+                    $3.75</li>
+                  <li>Military | League Bowler<br>
+                    $3.00</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="col-12 footerText">
-            <h3>2365 EAST Street Tracy, CA </h3>
+          <div class="col">
+            <div class="card mb-4">
+              <h1 class="pricing-card-title">Weekdays After 5pm</h1>
+              <div class="card-body">
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Regular<br>
+                    $6.50</li>
+                  <li>Senior | Youth<br>
+                    $4.75</li>
+                  <li>Military | League Bowler<br>
+                    $3.00</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="col-12 footerText">
-            <h3>(209)-835-5262</h3>
+          <div class="col">
+            <div class="card mb-4">
+              <h1 class="pricing-card-title">Weekends All Day</h1>
+              <div class="card-body">
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Regular<br>
+                    $6.50</li>
+                  <li>Senior | Youth<br>
+                    $4.75</li>
+                  <li>Military | League Bowler<br>
+                    $3.00</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!--footer end-->
+    </div>
   
-  </div>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row my-5 g-0">
+          <div class="col-7 my-4">
+            <img src="./assets/images/IndexProShop.png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-md-4">
+            <div class="card-body text-center">
+              <img src="./assets/images/ProShopVector.png" class="mx-auto" alt="pro shop placeholder image"
+                title="Pro Shop Bag Image">
+              <h5 class="card-title my-5">PRO SHOP</h5>
+              <p class="card-text">Bowling Equipment for<br>
+                Beginner | Advanced | Professional<br>
+                Location:<br>
+                Inside the entrance of Bowling Center<br>
+                Monday - Friday<br>
+                5pm - 8pm<br>
+                Mal Cowen<br>
+                209-834-6119
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <!--footer start-->
+      <footer>
+        <div class="container  d-none d-lg-block">
+          <div class="row">
+            <div class="col-3">
+              <h3 class="west">West Valley Bowl </h3>
+            </div>
+            <div class="col-1">
+              <h3>|</h3>
+            </div>
+            <div class="col-4">
+              <h3>2365 EAST Street Tracy, CA </h3>
+            </div>
+            <div class="col-1">
+              <h3>|</h3>
+            </div>
+            <div class="col-3">
+              <h3>(209)-835-5262</h3>
+            </div>
+          </div>
+        </div>
+        <!-- Medium and Smaller size -->
+        <div class="container  d-md-block d-lg-none">
+          <div class="row">
+            <div class="col-12 footerText">
+              <h3 class="west">West Valley Bowl </h3>
+            </div>
+            <div class="col-12 footerText">
+              <h3>2365 EAST Street Tracy, CA </h3>
+            </div>
+            <div class="col-12 footerText">
+              <h3>(209)-835-5262</h3>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--footer end-->
+  
+    </div>
     
     
 
