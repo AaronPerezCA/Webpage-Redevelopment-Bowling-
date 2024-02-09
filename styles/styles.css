@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body{
-  width: 100%;
+  font-family: Lato;
 }
   
 div.container-fluid{
   padding-left: 0;
   padding-right: 0;
-  max-width: 100%;
 }
 
 
@@ -33,6 +32,80 @@ a.nav-link{
   justify-content: right;
 }
 /* navbar end */
+
+
+
+/* index hour cards start */
+.card-body{
+  margin-left: 3%;
+  }
+
+.btn.btn-primary{
+  font-size: 1em;
+  background-color: #196CB8;
+  border-radius: 0%;
+  padding: 2%;
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-top: 4%;
+}
+  
+.pricing-title{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+.pricing-card-title{
+  font-size: 1.75em;
+}
+   
+.container-fluid.pricing {
+  background-color: #358FEF;
+}
+  
+li{
+  text-align: start;
+  line-height: 2.0;
+}
+
+h1.card-title.my-5{
+  text-align: center;
+  color: #000;
+  font-family: Lato;
+  font-size: 2.5em;
+  font-style: normal;
+  font-weight: 700;
+}
+
+div.card.mb-4{
+  margin: 15%;
+  border-radius: 25px;
+}
+
+.card-text{
+  font-size: 1.5em;
+  font-style: normal;
+  line-height: 2.0em;
+}
+
+p{
+  color: #000;
+font-size: 1.5em;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50em;
+}
+/* index hour cards end */
+
+
+
+
+
+
+
 
 
 /* footer start */
