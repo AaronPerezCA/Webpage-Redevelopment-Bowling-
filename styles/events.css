@@ -91,6 +91,11 @@ span{
     flex-direction: column;
 }
 
+.titleDart{
+   
+    padding-top: 25%;
+}
+
 
 /*Footer*/
 footer{
