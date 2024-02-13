@@ -83,6 +83,14 @@ span{
     flex-direction: column;
 }
 
+.cosmicSection2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 
 /*Footer*/
 footer{
