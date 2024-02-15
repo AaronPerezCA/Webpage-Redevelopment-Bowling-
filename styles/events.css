@@ -92,10 +92,17 @@ span{
 }
 
 .titleDart{
-   
     padding-top: 25%;
 }
 
+
+
+/*Lounge*/
+
+.spaceDiv{
+    padding-top: 5rem;
+    padding-bottom: 5rem;;
+}
 
 /*Footer*/
 footer{
