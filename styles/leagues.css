@@ -100,6 +100,7 @@ span{
     background: url("../assets/images/highlightsBackground.jpg");
     background-repeat: no-repeat;
     background-size: 100% 115% ;
+    height: 20rem;
     color: white;
     border-radius: 0;
     padding-top: 1rem;
@@ -117,10 +118,12 @@ span{
 }
 .opacBg{
     background-color: #0d142e71;
-    
+
 }
+/* 
+@media screen and (min-width:1288px){
 
-
+} */
 
 
 
