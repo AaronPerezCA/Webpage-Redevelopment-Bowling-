@@ -14,32 +14,31 @@
   <div class="container-fluid">
   
     <!--navbar start-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="./assets/images/NavBarLogo.png" alt="Bootstrap" width="100%" height="100%">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="../index.html"><img src="../assets/images/NavBarLogo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggles"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Spare Time Lounge</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tournaments</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Leagues</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link pageLinks" aria-current="page" href="lounge.html">
+              <h5>Spare Time Lounge</h5>
+            </a>
+            <a class="nav-link pageLinks" href="events.html">
+              <h5>Events</h5>
+            </a>
+            <a class="nav-link pageLinks" href="tournaments.html">
+              <h5>Tournaments</h5>
+            </a>
+            <a class="nav-link pageLinks" href="leagues.html">
+              <h5>Leagues</h5>
+            </a>
+            <a class="nav-link pageLinks" href="contact.html">
+              <h5>Contact Us</h5>
+            </a>
+          </div>
         </div>
       </div>
     </nav>
@@ -54,107 +53,196 @@
     <!---------hero end------------>
   
     <!-----cards - hours lane reservation start------>
-    <div class="container-fluid px-4 py-5">
-      <div class="container">
-        <div class="row my-2 g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
-            <div class="d-flex align-items-center justify-content-center">
-              <img src="./assets/images/IndexClockVector.png" class="mx-auto" alt="hours placeholder image"
-                title="Open Hours Clock Image">
+    <div class="container-xxl">
+      <div class="flex-container">
+  
+        <div class="row my-5 py-2">
+          <div class="col" style="max-width:600px;min-width:448px;">
+  
+            <div class="container d-none d-md-block">
+              <div class="d-flex align-items-center justify-content-center">
+                <img src="./assets/images/IndexClockVector.png" class="mx-auto" alt="hours placeholder image"
+                  title="Open Hours Clock Image">
+              </div>
+              <h1 class="card-title my-5">HOURS</h1>
+              <div class="row">
+                <table class="table table-borderless">
+                  <tbody>
+                    <tr>
+                      <th scope="row">
+                      <td>Monday & Wednesday</td>
+                      <td>2pm - 10pm</td>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                      <td>Tuesday & Thursday</td>
+                      <td>10am - 10pm</td>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                      <td>Friday & Saturday</td>
+                      <td>10am - 12am</td>
+                      </th>
+                    </tr>
+                    <tr>
+                      <th scope="row">
+                      <td>Sunday</td>
+                      <td>12pm - 8pm</td>
+                      </p>
+                      </th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <h1 class="card-title my-5">HOURS</h1>
+          </div>
+  
+          <!-- Small Medium -->
+          <div class="container d-sm-block d-md-none">
             <div class="row">
               <div class="col">
-                <p class="card-text d-flex flex-column">
-                <p>Monday & Wednesday</p>
-                <p>Tuesday & Thursday</p>
-                <p>Friday & Saturday</p>
-                <p>Sunday</p>
-                </p>
-              </div>
-              <div class="col">
-                <p class="card-text d-flex flex-column">
-                <p>2pm - 10pm</p>
-                <p>10am - 10pm</p>
-                <p>10am - 12am</p>
-                <p>12pm - 8pm</p>
-                </p>
+                <div class="d-flex align-items-center justify-content-center">
+                  <img src="./assets/images/IndexClockVector.png" class="mx-auto" alt="hours placeholder image"
+                    title="Open Hours Clock Image">
+                </div>
+                <h1 class="card-title my-5">
+                  HOURS
+                </h1>
+                <div class="row text-center">
+                  <div class="col-12">
+                    <p>
+                      Monday & Wednesday
+                      <br>
+                      2pm - 10pm
+                    </p>
+                  </div>
+                  <div class="col-12">
+                    <p>
+                      Tuesday & Thursday
+                      <br>
+                      10am - 10pm
+                    </p>
+                  </div>
+                  <div class="col-12">
+                    <p>
+                      Friday & Saturday
+                      <br>
+                      10am - 12am
+                    </p>
+                  </div>
+                  <div class="col-12">
+                    <p>Sunday
+                      <br>
+                      12pm - 8pm
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
   
-          <div class="col">
-            <div class="card">
-              <div class="d-flex flex-column"><img src="./assets/images/IndexCenterImage.jpg" style="width:100%;">
-              </div>
+  
+          <div class="col text-center" id="CenterImg">
+            <div class="d-inline-flex align-items-center fs-2 mb-3">
+              <img src="./assets/images/IndexCenterImage.png" class="mx-auto" alt="bowling placeholder image"
+                title="Friends Bowling Image" style="border-radius:25px;">
             </div>
           </div>
   
-          <div class="feature col text-center">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+          <div class="col text-center">
+            <!-- style="min-width:380px; -->
+            <div class="d-inline-flex align-items-center justify-content-center fs-2 mb-3">
               <img src="./assets/images/IndexCalendarVector.png" class="mx-auto" alt="calendar placeholder image"
                 title="Reserve Lane Calendar Image">
             </div>
             <h1 class="card-title my-5">LANE RESERVATIONS</h1>
-            <p class="card-text">Join the fun with family and friends!!</p>
-            <button type="button" class="btn btn-primary">Book Lanes Now</button>
+            <p>Join the fun with family and friends!!</p>
+            <button type="button" class="btn btn-primary" href="contact.html" title="Reserve Bowling Lane Button">Book Lanes Now</button>
           </div>
         </div>
       </div>
     </div>
+  
+  
     <!-----cards - hours lane reservation end------>
-  
-  
     <div class="container-fluid pricing">
-      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <div class="pricing-header p-3 pb-lg-4 mx-auto text-center">
         <img src="./assets/images/IndexPricingVectorIcon.png">
         <h1 class="pricing-title">PRICING</h1>
       </div>
   
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-          <div class="col">
-            <div class="card mb-4">
-              <h1 class="pricing-card-title">Weekdays Before 5pm</h1>
-              <div class="card-body my-2">
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Regular<br>
-                    $4.75</li>
-                  <li>Senior | Youth<br>
-                    $3.75</li>
-                  <li>Military | League Bowler<br>
-                    $3.00</li>
-                </ul>
+      <div class="d-flex justify-content-evenly row-hl">
+        <div class="row row-cols-1 row-cols-lg-3 mb-3 text-center">
+  
+          <div class="p-4 item-hl">
+            <div class="col text-center d-inline-flex align-items-center fs-2 mb-3">
+              <div class="card">
+                <h1 class="pricing-card-title mx-auto">
+                  Weekdays
+                </h1>
+                <h2 class="pricing-card-title2 mx-auto">
+                  Before 5pm
+                </h2>
+                <div class="card-body">
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Regular<br>
+                      $4.75</li>
+                    <li>Senior | Youth<br>
+                      $3.75</li>
+                    <li>Military | League Bowler<br>
+                      $3.00</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card mb-4">
-              <h1 class="pricing-card-title">Weekdays After 5pm</h1>
-              <div class="card-body">
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Regular<br>
-                    $6.50</li>
-                  <li>Senior | Youth<br>
-                    $4.75</li>
-                  <li>Military | League Bowler<br>
-                    $3.00</li>
-                </ul>
+  
+  
+          <div class="p-4 item-hl">
+            <div class="col text-center d-inline-flex align-items-center fs-2 mb-3">
+              <!-- <div class="col"> -->
+              <div class="card">
+                <h1 class="pricing-card-title mx-auto">
+                  Weekdays
+                </h1>
+                <h2 class="pricing-card-title2 mx-auto">
+                  After 5pm
+                </h2>
+                <div class="card-body">
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Regular<br>
+                      $6.50</li>
+                    <li>Senior | Youth<br>
+                      $4.75</li>
+                    <li>Military | League Bowler<br>
+                      $3.00</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card mb-4">
-              <h1 class="pricing-card-title">Weekends All Day</h1>
-              <div class="card-body">
-                <ul class="list-unstyled mt-3 mb-4">
-                  <li>Regular<br>
-                    $6.50</li>
-                  <li>Senior | Youth<br>
-                    $4.75</li>
-                  <li>Military | League Bowler<br>
-                    $3.00</li>
-                </ul>
+  
+          <div class="p-4 item-hl">
+            <div class="col text-center d-inline-flex align-items-center fs-2 mb-3">
+              <div class="card">
+                <h1 class="pricing-card-title mx-auto">
+                  Weekends
+                </h1>
+                <h2 class="pricing-card-title2 mx-auto">
+                  All Day
+                </h2>
+                <div class="card-body">
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Regular<br>
+                      $6.50</li>
+                    <li>Senior | Youth<br>
+                      $4.75</li>
+                    <li>Military | League Bowler<br>
+                      $3.00</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -162,30 +250,30 @@
       </div>
     </div>
   
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row my-5 g-0">
-          <div class="col-7 my-4">
-            <img src="./assets/images/IndexProShop.png" class="img-fluid" alt="...">
+    <div class="container-xxl mt-5 py-3">
+      <div class="row flex-lg-row align-items-center">
+        <div class="col-lg-8 d-inline-flex align-items-center justify-content-center fs-2 my-3">
+          <img src="./assets/images/IndexProShop.png" class="img-fluid">
+        </div>
+  
+        <div class="col-lg-4 text-center">
+          <div class="d-inline-flex align-items-center justify-content-center fs-2 mb-3 pb-5 mt-1">
+            <img src="./assets/images/ProShopVector.png" class="mx-auto" alt="pro shop placeholder image"
+              title="Pro Shop Bag Image">
           </div>
-          <div class="col-md-4">
-            <div class="card-body text-center">
-              <img src="./assets/images/ProShopVector.png" class="mx-auto" alt="pro shop placeholder image"
-                title="Pro Shop Bag Image">
-              <h5 class="card-title my-5">PRO SHOP</h5>
-              <p class="card-text">Bowling Equipment for<br>
-                Beginner | Advanced | Professional<br>
-                Location:<br>
-                Inside the entrance of Bowling Center<br>
-                Monday - Friday<br>
-                5pm - 8pm<br>
-                Mal Cowen<br>
-                209-834-6119
-              </p>
-            </div>
-          </div>
+          <h1 class="card-title my-4 py-3 pt-3">PRO SHOP</h1>
+          <p>Bowling Equipment for<br>
+            Beginner | Advanced | Professional<br>
+            Location:<br>
+            Inside the entrance of Bowling Center<br>
+            Monday - Friday<br>
+            5pm - 8pm<br>
+            Mal Cowen<br>
+            209-834-6119
+          </p>
         </div>
       </div>
+    </div>
   
   
       <!--footer start-->
