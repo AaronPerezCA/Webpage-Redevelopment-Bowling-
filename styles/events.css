@@ -1,4 +1,3 @@
-
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
@@ -34,7 +33,6 @@ span{
 }
 
 
-
 /*blue background */
 .topBg{
     background-color: #358FEF !important;
@@ -42,14 +40,56 @@ span{
 }
 
 
+.centerTxt{
+    display: flex;
+    justify-content: center;
+}
 
+.eventsCosmicBowlImg{
+    padding: 0px;
+    border: 2px black solid;
+}
+
+.photo{
+    padding: 0px;
+}
 
 
 .btn{
     border-radius: 0px;
 }
 
+
+/*testing */
+.cosmicBg{
+    padding: 0%;
+
+}
+
+.mid{
+    padding: 0px;
+}
+
+.midParties{
+    padding-top: 0px;
+}
+
 #cosmicImgTop{
+    
+    width: 100%;
+}
+#cosmicImgMid{
+    
+    width: 100%;
+}
+#cosmicImgBtm{
+    
+    width: 100%;
+
+}
+
+
+cosmicImgTop{
     width: 100%;
 }
 
@@ -116,4 +156,5 @@ h3{
 }
 .footerText{
     margin-bottom: 1rem;;
+
 }
