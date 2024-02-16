@@ -62,6 +62,7 @@ span{
     border-radius: 0px;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -92,6 +93,8 @@ span{
     width: 100%;
 
 
+=======
+>>>>>>> bfa78279e31c95a55a3094d648fa1e1df671dd77
 #cosmicImgTop{
     width: 100%;
 }
@@ -126,6 +129,26 @@ span{
     flex-direction: column;
 }
 
+.cosmicSection2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.titleDart{
+    padding-top: 25%;
+}
+
+
+
+/*Lounge*/
+
+.spaceDiv{
+    padding-top: 5rem;
+    padding-bottom: 5rem;;
+}
 
 /*Footer*/
 footer{
