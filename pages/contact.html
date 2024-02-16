@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>West Valley Bowl - Contact Us</title>
+    <link rel="icon" type="images/x-icon"
+        href="/assets/images/bowling-pin-computer-icons-clip-art-bowling-5ae01832f10585.2245712915246356989872.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/contact.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../assets/images/NavBarLogo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggles"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link pageLinks" aria-current="page" href="lounge.html"><h5>Spare Time Lounge</h5></a>
+                    <a class="nav-link pageLinks" href="events.html"><h5>Events</h5></a>
+                    <a class="nav-link pageLinks" href="tournaments.html"><h5>Tournaments</h5></a>
+                    <a class="nav-link pageLinks" href="leagues.html"><h5>Leagues</h5></a>
+                    <a class="nav-link pageLinks" href="contact.html"><h5>Contact Us</h5></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar end -->
+    <h1 class="title"><b>Contact Us</b></h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col form">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputFirstName" class="form-label">First Name</label>
+                        <input type="fName" class="form-control" id="inputName" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputLastName" class="form-label">Last Name</label>
+                        <input type="lName" class="form-control" id="inputLastName" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" required>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="phoneNumber" required minlength="10" maxlength="10"
+                            pattern="{0-9}">
+                    </div>
+                    <div class="col-md-6 col-12 button">
+                        <div>
+                            <input type="radio" id="Tournaments" name="formType" value="HTML">
+                            <label for="html">Tournaments</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Leagues" name="formType" value="HTML">
+                            <label for="html">Leagues</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Other" name="formType" value="HTML">
+                            <label for="html">Other</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="w3review">Message</label><br>
+                        <textarea id="w3review" name="w3review" class="message">
+                        </textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" id="submitBtn" class="btn btn-primary submitBtn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../assets/images/ad1.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/images/ad2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/images/ad3.png" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="../assets/images/ad5.jpg" class="d-block w-100 " alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/images/ad6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev leftBtn" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next rightBtn" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container  d-none d-lg-block">
+            <div class="row">
+                <div class="col-3">
+                    <h3 class="west">West Valley Bowl </h3>
+                </div>
+                <div class="col-1">
+                    <h3>|</h3>
+                </div>
+                <div class="col-4">
+                    <h3>2365 EAST Street Tracy, CA </h3>
+                </div>
+                <div class="col-1">
+                    <h3>|</h3>
+                </div>
+                <div class="col-3">
+                    <h3>(209)-835-5262</h3>
+                </div>
+            </div>
+        </div>
+        <!-- Medium and Smaller size -->
+        <div class="container  d-md-block d-lg-none">
+            <div class="row">
+                <div class="col-12 footerText">
+                    <h3 class="west">West Valley Bowl </h3>
+                </div>
+
+                <div class="col-12 footerText">
+                    <h3>2365 EAST Street Tracy, CA </h3>
+                </div>
+
+                <div class="col-12 footerText">
+                    <h3>(209)-835-5262</h3>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <script src="../scripts/contact.js"></script>
+</body>
+
+</html>
+

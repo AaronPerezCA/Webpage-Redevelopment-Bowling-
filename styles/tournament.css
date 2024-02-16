@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-body{
-    background-color: #358FEF;
-    font-family: lato;
-}
-
-/* NavBar */
 .navbar{
     background-color: #080D29 !important;
     margin-bottom: 2em;
@@ -32,72 +26,53 @@ span{
     display: flex;
     justify-content: flex-end;
 }
-/* NavBar */
 
-.title{
-    text-align: center;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-}
-.mainContainer{
-    margin: none !important;
-    display: flex;
-    justify-content: space-between;
+/* Tournament */
+body{
+    background-color: #358FEF;
+    font-family: Lato;
 }
 
-.bothCard{
-    border-radius: 25px;
-    border: none;
-    margin-bottom: 2rem;
+.tournamentTitle{
+    font-size: 40px;
+    font-weight: bolder;
 }
+
+.tournamentScores{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.cardPicTop {
+    border-top-left-radius: 0px ;
+    border-top-right-radius: 0px ; 
+}
+
+.card-margin {
+    margin-bottom: 100px;
+}
+
+.cardBody {
+    padding-top: 0 !important;
+}
+
 .cardImg{
     border-radius: 25px  25px 0px 0px;
 }
 
-.bold{
-    font-weight: bolder;
+.bothCard{
+    border-radius: 25px  25px 0px 0px;
+   
 }
-.juniorElimText{
-    margin-top: 1em;
-    margin-bottom: 2em;
-}
-.framerText{
-    margin-top: 1em;
-    margin-bottom: 2em;
-}
-.cardBtn{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.learnBtn{
-    border-radius: 0;
-    background-color: #196CB8 !important;
-    width: 150px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
-
 footer{
     background-color: #080D29;
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding: 3rem;
     color:white;
+    
 }
 h3{
     text-align: center;
@@ -105,3 +80,6 @@ h3{
 .footerText{
     margin-bottom: 1rem;;
 }
+
+
+
