@@ -30,10 +30,11 @@ span{
 /* Tournament */
 body{
     background-color: #358FEF;
+    font-family: Lato;
 }
 
 .tournamentTitle{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
