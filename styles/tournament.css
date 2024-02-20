@@ -33,6 +33,10 @@ body{
     font-family: Lato;
 }
 
+.boldText {
+    font-weight : bolder;
+}
+
 .tournamentTitle{
     font-size: 40px;
     font-weight: bolder;
