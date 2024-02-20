@@ -6,10 +6,6 @@ body{
 
 
   
-div.container-fluid{
-  padding-left: 0;
-  padding-right: 0;
-}
 
 /* NavBar */
 .navbar{
@@ -67,8 +63,8 @@ a.btn.btn-primary{
   border-radius: 0%;
   width: 190px;
   height: 51px;
-  padding: 3%;
   margin-top: 4%;
+  line-height: 40px;
   }
 
 
