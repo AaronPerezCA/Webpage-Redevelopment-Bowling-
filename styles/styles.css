@@ -3,51 +3,42 @@
 body{
   font-family: Lato;
 }
+
+
   
 div.container-fluid{
   padding-left: 0;
   padding-right: 0;
 }
 
-/* navbar start */
-.navbar
-{
-  background: #0B0F28 !important;
-  padding: 1%;
+/* NavBar */
+.navbar{
+  background-color: #080D29 !important;
 }
-
-a.nav-link{
-  display: inline-flex;
-  font-size: 1.7em;
-  font-weight: 400;
-  padding: 10px 15px !important;
-  color: white;
-  font-family: Lato;
-  font-weight: 400;
-  word-wrap: break-word
-}
-
-.nav-link:hover{
-  color: #358FEF;
-}
-
-
-.navbar-collapse {
-  justify-content: right;
-}
-/* navbar end */
-
-
-
-
-
-.flex-container{
+.navbar-collapse{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
+  justify-content: flex-end;
 }
+.pageLinks{
+  color:white;
+  margin-right: 1em;
+  text-align: right;
+}
+.pageLinks:hover{
+  color:#358FEF
+}
+.toggles{
+  background-image: url("../assets/images/bars-removebg-preview.png");
+  background-size: 100%;
+  height: 25px;
+  width: 25px;
+}
+span{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 
 /* index hour cards start */
 
@@ -65,18 +56,28 @@ color: #000000;
 
 div#CenterImg.col.text-center{
 margin-top: 1%;
-padding-top: 2%;
+padding-top: 1%;
 } 
 
 Button.btn.btn-primary{
-font-size: 1em;
-background-color: #196CB8;
-border-radius: 0%;
-width: 190px;
-height: 51px;
-margin-top: 4%;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF !important;
+  text-transform: uppercase;
+  padding: 5px;
+  transition: all 0.3s ease 0s;
+  font-size: 1em;
+  background-color: #196CB8;
+  border-radius: 0%;
+  width: 190px;
+  height: 51px;
+  margin-top: 4%;
 }
 
+.btn.btn-primary:hover {
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  }
 
 h1.card-title{
 text-align: center;
@@ -86,20 +87,30 @@ font-style: normal;
 font-weight: 700;
 }
 
+.HoursLane-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  }
+
 .container-fluid.pricing {
 background-color: #358FEF;
-padding-bottom: 2%;
+padding-bottom: 1%;
 }
 
 
-
-
 .pricing-title{
-color: #000;
-font-size: 3em;
-font-weight: bold;
-margin-top: 1.5%;
+margin-top: 1%;
 margin-bottom: 0%;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color: #000000;
 }
 
 .pricing-card-title{
@@ -128,6 +139,12 @@ width: 330px;
 height: 470px;
 background: #FFFFFF;
 border-radius: 25px;
+}
+
+.card-text{
+  font-size: 24px;
+  font-style: normal;
+  line-height: 2.0em;
 }
 
 li{
