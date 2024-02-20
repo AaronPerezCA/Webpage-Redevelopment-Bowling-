@@ -59,25 +59,18 @@ margin-top: 1%;
 padding-top: 1%;
 } 
 
-Button.btn.btn-primary{
+a.btn.btn-primary{
   justify-content: center;
   align-items: center;
-  color: #FFFFFF !important;
-  text-transform: uppercase;
-  padding: 5px;
-  transition: all 0.3s ease 0s;
   font-size: 1em;
   background-color: #196CB8;
   border-radius: 0%;
   width: 190px;
   height: 51px;
+  padding: 3%;
   margin-top: 4%;
-}
-
-.btn.btn-primary:hover {
-  border-radius: 50px;
-  transition: all 0.3s ease 0s;
   }
+
 
 h1.card-title{
 text-align: center;
