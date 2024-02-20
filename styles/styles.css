@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+  font-family: Lato;
+}
+  
+div.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* navbar start */
+.navbar
+{
+  background: #0B0F28 !important;
+  padding: 1%;
+}
+
+a.nav-link{
+  display: inline-flex;
+  font-size: 1.7em;
+  font-weight: 400;
+  padding: 10px 15px !important;
+  color: white;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word
+}
+
+.nav-link:hover{
+  color: #358FEF;
+}
+
+
+.navbar-collapse {
+  justify-content: right;
+}
+/* navbar end */
+
+
+
+
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+/* index hour cards start */
+
+.table.table-borderless{
+font-size: 1.4em;
+line-height: 150%;
+}
+
+td{
+font-style: normal;
+font-weight: 400;
+font-size: 24px; /* or 208% */
+color: #000000;
+} 
+
+div#CenterImg.col.text-center{
+margin-top: 1%;
+padding-top: 2%;
+} 
+
+Button.btn.btn-primary{
+font-size: 1em;
+background-color: #196CB8;
+border-radius: 0%;
+width: 190px;
+height: 51px;
+margin-top: 4%;
+}
+
+
+h1.card-title{
+text-align: center;
+color: #000;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+}
+
+.container-fluid.pricing {
+background-color: #358FEF;
+padding-bottom: 2%;
+}
+
+
+
+
+.pricing-title{
+color: #000;
+font-size: 3em;
+font-weight: bold;
+margin-top: 1.5%;
+margin-bottom: 0%;
+}
+
+.pricing-card-title{
+font-size: 36px !important;
+font-weight: 400;
+padding-top: 5%;
+margin-bottom: 0%;
+width: 279px; 
+font-size: 36px;
+color: #000000;
+}
+
+.pricing-card-title2{
+  font-size: 30px !important;
+  padding-top: 0;
+  padding-bottom: 5%;
+  font-size: 36px;
+  font-weight: 400;
+  width: 279px; 
+  font-size: 36px;
+  color: #000000;
+}
+
+.card{
+width: 330px;
+height: 470px;
+background: #FFFFFF;
+border-radius: 25px;
+}
+
+li{
+text-align: start;
+font-size: 20px;
+margin-left: 5%;
+padding-left: 5%;
+width: 235px;
+font-weight: 400;
+line-height: 24px;
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+p{
+color: #000;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.50em;
+}
+/* index hour cards end */
+
+
+
+
+
+
+
+/* footer start */
+footer{
+    background-color: #080D29;
+    margin-top: 2rem;
+    padding: 3rem;
+    color:white;
+  }
+  
+  h3{
+    text-align: center;
+  }
+  
+  .footerText{
+    margin-bottom: 1rem;;
+  }
+  /* footer end */
+  
